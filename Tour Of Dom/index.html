@@ -5,17 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour of DOM</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color: blue;
+        }
+        li{
+            color: green;
+        }
+        #fruit-title{
+            color: red;
+        }
+        .important-place{
+            color: orange;
+            font-weight:bold
+        }
+
+    </style>
 </head>
 <body>
 
     <!-- //25-1 What is dom, Connect your JS file with html file -->
     <header>
         <h1>Welcome to my DOM</h1>
-
+    
+        
     </header>
 
     <main>
-        <h2>I am learning js DOM all thing today</h2>
+        <section>
+            <h2>I am learning js DOM all thing today</h2>
         <ul>
             <li>HTML DOM</li>
             <li>CSS DOM</li>
@@ -26,6 +44,34 @@
             <li>Attribute DOM</li>
             <li>Text DOM</li>
         </ul>
+        </section>
+
+        <section id="fruit-container">
+            <h1 id="fruit-title">Fruits I like</h1>
+            <ul>
+                <li>Mango</li>
+                <li>Banana</li>
+                <li>Orange</li>
+                <li>Apple</li>
+                <li>Grapes</li>
+                <li>Watermelon</li>
+                <li>Strawberry</li>
+                <li>Pineapple</li>
+            </ul>
+        </section>
+        <section id="places-container">
+            <h1 id="place-title">Place I like to visit</h1>
+            <ul>
+                <li class="important-place">Switzerland</li>
+                <li class="important-place">Italy</li>
+                <li class="important-place">Spain</li>
+                <li>Germany</li>
+                <li>Greece</li>
+                <li>Turkey</li>
+                <li>France</li>
+                <li>Netherlands</li>
+            </ul>
+        </section>
     </main>
     <script src="app.js"></script>
 </body>
